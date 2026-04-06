@@ -1,0 +1,14 @@
+:root{--cell-size:48px}
+body{font-family:Arial,Helvetica,sans-serif;margin:16px}
+.app{max-width:640px;margin:0 auto}
+.start{display:flex;gap:8px;margin-bottom:12px}
+input{padding:6px 8px;font-size:14px}
+button{padding:6px 10px;font-size:14px}
+.board{display:flex;flex-direction:column;gap:6px;margin:12px 0}
+.row{display:flex;gap:6px}
+.cell{width:var(--cell-size);height:var(--cell-size);border:1px solid #666;background:#f0f0f0;cursor:pointer}
+.cell.revealed{background:#ddd;cursor:default}
+.cell.selected{background:#cde}
+.info{display:flex;gap:12px;margin-bottom:8px}
+.controls{display:flex;gap:12px;align-items:center}
+.leaderboard{margin-top:12px}
